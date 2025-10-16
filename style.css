@@ -6,3 +6,171 @@ Description: Ein erster, zaertlicher Test!
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: #f9f9f9;
+    font-family: Helvetica;
+}
+
+li {
+  list-style: none;
+}
+
+main {
+  padding: 20px 100px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+footer {
+  width: 100%;
+  background-color: #d6ebff;
+  margin-top: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-menu li {
+    margin: 0 10px;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+}
+
+.header-menu a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.my-logo img {
+  max-width: 50%;
+  height: auto;
+}
+
+.hero {
+  background-color: #d6ebff;
+  padding: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.my-posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.article-loop {
+    margin-bottom: 30px;
+}
+
+.article-loop img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.article-loop h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.article-loop p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+}
+
+.article-loop .flex-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.page-header {
+  background-color: #d6ebff;
+  padding: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.page-header h1 {
+  font-size: 2em;
+}
+
+.article-full img {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.article-full h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.article-full p {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.single__post {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.single__post-header img {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  height: 400px;
+}
+
+.single__post-header h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
