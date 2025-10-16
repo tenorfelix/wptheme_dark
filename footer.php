@@ -3,4 +3,6 @@
   </footer>
   <?php wp_footer(); ?>
 </body>
+
+<!-- test -->
 </html>
