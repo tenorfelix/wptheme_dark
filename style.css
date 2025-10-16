@@ -1,11 +1,15 @@
 /*
-Theme Name: Mein Minimal-Theme
+Theme Name: MS Minimal Theme
 Theme URI: https://example.com/
-Author: Ihr Name
+Author: Mini-Schager
 Author URI: https://example.com/
-Description: Minimalbeispiel für ein eigenes Theme.
+Description: Minimalbeispiel für ein eigenes WordPress-Theme (umbenannte Version).
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: mein-minimal-theme
+Text Domain: ms-minimal-theme
 */
+body { font-family: sans-serif; margin: 0; padding: 0; }
+main { max-width: 720px; margin: 2rem auto; padding: 0 1rem; }
+header, footer { background: #f5f5f5; padding: 1rem; }
+article + article { margin-top: 2rem; }
