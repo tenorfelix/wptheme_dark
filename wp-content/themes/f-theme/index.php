@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <main>
     <div class="hero">
-        <h1>Welcome to my blog!</h1>
+        <h1>Welcome to my bblog!</h1>
         <p>Here, you'll find posts on a variety of topics, including programming, web development, and more.</p>
     </div>
 
