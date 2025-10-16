@@ -22,7 +22,7 @@
             </a>
         <?php endwhile; else : ?>
             <article>
-                <p>Sorry, no posts were found!</p>
+                <p>Sorrry, no posts were found!</p>
             </article>
         <?php endif; ?>
     </div>
